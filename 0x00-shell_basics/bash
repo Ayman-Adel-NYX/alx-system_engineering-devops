@@ -1,2 +1,4 @@
 #!/bin/bash
-echo"#!/bin/bash" >
+echo 'input file name'
+read filename
+echo"#!/bin/bash" > ${filename}
