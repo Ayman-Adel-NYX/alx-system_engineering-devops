@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 'file name :'
+read n
+echo "#!/bin/bash " >${n}
+chmod +x ${n}
