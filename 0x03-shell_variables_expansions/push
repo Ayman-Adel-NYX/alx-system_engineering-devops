@@ -1,6 +1,4 @@
 #!/bin/bash
-echo 'enter commit name'
-read m
 git add .
-git commit -m'${m}'
+git commit -m'sd'
 git push
